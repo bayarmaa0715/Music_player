@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicPlayer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/9cd0f99006.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Bayarmaa's top 5 favorite songs</h1>
+    <p>You ready to listen my favorite songs</p>
+    <div class="btn_container">
+      <button id="btnBefore"><i class="fa-solid fa-backward-fast"></i></button>
+
+      <div id="btn_PP">
+        <button id="btnPlay"><i class="fa-solid fa-play"></i></button>
+        <button id="btnPause"><i class="fa-solid fa-pause"></i></button>
+      </div>
+
+      <button id="btnNext"><i class="fa-solid fa-forward-fast"></i></button>
+    </div>
+    <div class="song_container">
+      <audio
+        class="song"
+        id="songs1"
+        controls
+        src="./songs/Young Wild and Free - Wiz Khalifa (LyricsVietsub).mp3"
+      ></audio>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
+`
